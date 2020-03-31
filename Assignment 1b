@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+  printf("Name: Daya Haridas\n");
+  printf("Department: ECE\n");
+  printf("College: CEC\n");
+  return 0;
+  
+}
