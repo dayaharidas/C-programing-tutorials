@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+
+{
+  printf("I have a pet whose name is %s and is %d years old \n","Dobby",3);
+  printf("It's favourite food items are %s","canned fish ,skinless chicken and cooked eggs");
+  
+
+  return 0;
+}
