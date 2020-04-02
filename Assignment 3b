@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+int main()
+{ 
+  char Name[20];
+  double gpa1;
+  double gpa2;
+  printf(" Enter name of Student:");
+  scanf("%s",& Name);
+  printf("Enter first sem gpa:");
+  scanf("%lf",& gpa1);
+  printf("Enter second sem gpa:");
+  scanf("%lf",& gpa2);
+  printf("Total gpa:%f",(gpa1+gpa2)/2);
+  
+  
+
+  return 0;
+}
