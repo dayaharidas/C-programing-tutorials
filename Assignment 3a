@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+int main()
+{
+  double P;
+  double R;
+  double T;
+  printf("Enter principal amount:");
+  scanf("%lf",&P);
+  printf("Enter Interest rate:");
+  scanf("%lf",&R);
+  printf("Enter Time:");
+  scanf("%lf",&T);
+  printf("Simple Interest :%f",(P*R*T)/100);
+  
+  return 0;
+}
