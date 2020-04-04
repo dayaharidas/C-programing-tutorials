@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+int main()
+{
+  int age;
+  int a =60;
+  int b=50;
+  printf("Enter your age");
+  scanf("%d",&age);
+  if (age>=a)
+  printf("Pension amount is %d",10000);
+  if(age >= b)
+  printf("Pension amount is %d",5000);
+  else
+  printf("Pension amuont is %d",0);
+  return 0;
+}
