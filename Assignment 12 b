@@ -1,0 +1,43 @@
+#include <stdio.h>
+int main()
+{
+  
+
+int a[10][10];
+int r,c,i,j;
+int flag =0;
+printf("Enter the number of rows and columns:\n");
+scanf("%d%d",&r,&c);
+printf("Enter the elements of matrix:\n");
+for(i=0;i<r;i++)
+{
+  for(j=0;j<c;j++)
+  {
+    scanf("%d",&a[i][j]);
+    
+  }
+}
+for(i=0;i<r;i++)
+{
+  for(j=0;j<c;j++)
+  {
+    if(a[i][j]!=0 && a[i][j]!=1)
+    flag= 1;
+    break;
+    
+  }
+}
+if(flag ==0)
+{
+  printf("The matrix is an identity matrix:\n");
+  
+ 
+}
+else 
+{
+  
+printf("The matrix is not an identity matrix:\n");
+
+}
+return 0;
+}
